@@ -28,6 +28,12 @@ nav div a {
     color: black;
 }
 
+nav figcaption {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 nav .categorias a {
     padding: 0 30px;
     transition: 1s;
