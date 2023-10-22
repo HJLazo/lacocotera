@@ -94,7 +94,7 @@ h2 {
 }
 
 .inicio__main .vision .description {
-    width: 34%;
+    width: 30%;
 }
 
 .vision div h2 {
@@ -102,24 +102,15 @@ h2 {
     color: white;
 }
 
-.vision .description {
-    display: flex;
-    align-items: center;
-
-}
-
 .vision .description p {
     font-size: 40px;
     backdrop-filter: blur(80px);
-    padding: 50px 20px;
+    padding: 40px 10px;
     border-radius: 15px;
-    margin: 100px 0;
-    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    line-height: 45px;
 }
-
-/* .images__container {
-    z-index: -1;
-} */
 
 .images__container .img1, .images__container .img2 {
     display: flex;
@@ -175,7 +166,7 @@ h2 {
 
 .inicio__main .ofertas_especiales img {
     object-fit: cover;
-    height: 200px;
+    height: 350px;
 }
 
 .inicio__main .ofertas_especiales {
