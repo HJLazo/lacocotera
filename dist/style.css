@@ -101,6 +101,10 @@ h2 {
 
 .inicio__main .vision .description {
     width: 30%;
+    user-select: none;        
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
 }
 
 .vision div h2 {
