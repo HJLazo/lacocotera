@@ -321,9 +321,56 @@ aside .colors div:last-child div {
     margin-bottom: 20px;
 }
 
-
 .servicios .servicios_list .servicio {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+/* css tienda */
+
+.tienda__servicios {
+    display: flex;    
+    padding: 20px;
+}
+
+.tienda__servicios .form__container,
+.tienda__servicios .payment_methods {
+    padding: 5px;
+}
+
+.tienda__servicios form,
+.tienda__servicios .list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tienda__servicios form input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.payment_methods .list>div {
+    padding-bottom: 30px;
+}
+
+.payment_methods .list div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.payment_methods .list .credit_cards svg {
+    fill: black;
+    width: 40px;
+    height: 40px;
+}
+
+.payment_methods .list .yape_plin img {
+    width: 40px;
 }
