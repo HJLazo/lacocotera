@@ -113,8 +113,8 @@ h2 {
     backdrop-filter: blur(80px);
     padding: 40px 10px;
     border-radius: 15px;
-    margin-top: 50px;
-    margin-bottom: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     line-height: 45px;
 }
 
@@ -165,21 +165,64 @@ h2 {
     position: relative;
 }
 
-.inicio__main .ofertas_especiales {
-    display: flex;
+.clothes_list {
+    display: grid;
+    grid-template-columns: 300px 300px 1fr;
+    grid-template-areas: 
+        "oferta2 ofertas ."
+        "oferta3 oferta8 .";
     gap: 20px;
 }
 
-.inicio__main .ofertas_especiales img {
-    object-fit: cover;
-    height: 350px;
+.novedades {
+    margin-top: 100px;
+    display: flex;
 }
 
-.inicio__main .ofertas_especiales {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.novedades img {
+    height: 300px;
 }
+
+.novedades .h2_container {
+    font-size: 60px;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.novedades .novedades_imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.novedades .novedades_imgs img {
+    height: 200px;
+    width: 200px;
+}
+
+.ofertas_h2 {
+    grid-area: ofertas;
+    display: flex;
+    align-items:end;
+}
+
+.clothes_list img[src="./assets/inicio/oferta2.jpeg"] {
+    grid-area: oferta2;
+}
+
+.clothes_list img[src="./assets/inicio/oferta8.jpeg"] {
+    grid-area: oferta8;
+}
+
+.clothes_list img[src="./assets/inicio/oferta3.jpeg"] {
+    grid-area: oferta3;
+}
+
+.clothes_list img {
+    width: 100%;
+}
+
 
 /* css de coleccion */
 
