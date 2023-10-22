@@ -330,7 +330,8 @@ aside .colors div:last-child div {
 /* css tienda */
 
 .tienda__servicios {
-    display: flex;    
+    display: flex;
+    justify-content: center;
     padding: 20px;
 }
 
