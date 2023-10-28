@@ -77,6 +77,9 @@ footer .right svg:nth-child(2){
     margin: 0 20px;
 }
 
+.hidden {
+    display: none;
+}
 /* css de inicio */
 
 #whatsapp {
